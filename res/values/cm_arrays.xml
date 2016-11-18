@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012-2015 The CyanogenMod Project
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017      The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -28,5 +29,20 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+
+    <!-- Wi-Fi tethering inactivity shut off -->
+    <string-array name="hotstpot_inactivity_timeout_entries" translatable="false">
+        <item>@string/hotstpot_inactivity_timeout_never</item>
+        <item>@string/hotstpot_inactivity_timeout_1_minute</item>
+        <item>@string/hotstpot_inactivity_timeout_5_minutes</item>
+        <item>@string/hotstpot_inactivity_timeout_10_minutes</item>
+    </string-array>
+
+    <string-array name="hotstpot_inactivity_timeout_values" translatable="false">
+        <item>0</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
     </string-array>
 </resources>
